@@ -11,7 +11,7 @@ import axios from 'axios'
         },
         methods:{
             async signUp(){
-                let result = await axios.post("http://localhost:3000/user",{
+                let result = await axios.post("userhttp://localhost:3000/",{
                     name:this.name,
                     password:this.password,
                     email:this.email
